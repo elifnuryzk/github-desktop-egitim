@@ -10,6 +10,7 @@ from arkadaslar import ARKADASLAR
 BASLIK = "ARKADAŞ PANOSU"
 
 
+
 def cizgi(uzunluk=40):
     print("=" * uzunluk)
 
@@ -38,3 +39,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def main():
+    cizgi()
+    print(BASLIK.center(40))
+    cizgi()
+    print()
+
+    for sira, arkadas in enumerate(ARKADASLAR, start=1):
+        arkadasi_yazdir(sira, arkadas)
+
+    cizgi()
+    print(f"Toplam {len(ARKADASLAR)} kişi panoya katıldı.")
+    cizgi()
