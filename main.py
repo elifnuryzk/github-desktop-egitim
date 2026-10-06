@@ -9,6 +9,9 @@ from arkadaslar import ARKADASLAR
 
 BASLIK = "ARKADAŞ PANOSU"
 
+def cizgi(uzunluk=40):
+    print("Hello world")
+
 
 def cizgi(uzunluk=40):
     print("=" * uzunluk)
