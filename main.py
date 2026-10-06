@@ -12,6 +12,13 @@ BASLIK = "ARKADAŞ PANOSU"
 def cizgi(uzunluk=40):
     print("Hello world")
 
+def arkadasi_sil(sira, arkadas):
+    print(f"{sira}. {arkadas['isim']}")
+    print(f"   Şehir        : {arkadas['sehir']}")
+    print(f"   Sevdiği yemek: {arkadas['sevdigi_yemek']}")
+    print(f"   Mesajı       : \"{arkadas['mesaj']}\"")
+    print()
+
 
 def cizgi(uzunluk=40):
     print("=" * uzunluk)
