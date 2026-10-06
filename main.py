@@ -10,6 +10,9 @@ from arkadaslar import ARKADASLAR
 BASLIK = "ARKADAŞ PANOSU"
 
 def cizgi(uzunluk=40):
+    print("=" * uzunluk)
+
+def cizgi(uzunluk=40):
     print("Hello world")
 
 def arkadasi_sil(sira, arkadas):
