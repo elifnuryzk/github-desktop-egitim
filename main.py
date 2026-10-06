@@ -41,6 +41,21 @@ if __name__ == "__main__":
     main()
 
 
+def nokta():
+    cizgi()
+    print(BASLIK.center(40))
+    cizgi()
+    print()
+
+    for sira, arkadas in enumerate(ARKADASLAR, start=1):
+        arkadasi_yazdir(sira, arkadas)
+
+    cizgi()
+    print(f"Toplam {len(ARKADASLAR)} kişi panoya katıldı.")
+    cizgi()
+
+        
+
 def main():
     cizgi()
     print(BASLIK.center(40))
@@ -53,3 +68,5 @@ def main():
     cizgi()
     print(f"Toplam {len(ARKADASLAR)} kişi panoya katıldı.")
     cizgi()
+
+
